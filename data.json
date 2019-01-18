@@ -1,0 +1,170 @@
+[
+  {
+    "date": "2020-02-03 12:00:00 -0500",
+    "event": "Iowa Caucuses"
+  },
+  {
+    "date": "2020-02-11 12:00:00 -0500",
+    "event": "New Hampshire"
+  },
+  {
+    "date": "2020-02-22 12:00:00 -0500",
+    "event": "Nevada Caucus"
+  },
+  {
+    "date": "2020-02-29 12:00:00 -0500",
+    "event": "South Carolina"
+  },
+  {
+    "date": "2020-03-03 12:00:00 -0500",
+    "event": "Alabama"
+  },
+  {
+    "date": "2020-03-03 12:00:00 -0500",
+    "event": "California"
+  },
+  {
+    "date": "2020-03-03 12:00:00 -0500",
+    "event": "Massachusetts"
+  },
+  {
+    "date": "2020-03-03 12:00:00 -0500",
+    "event": "North Carolina"
+  },
+  {
+    "date": "2020-03-03 12:00:00 -0500",
+    "event": "Oklahoma"
+  },
+  {
+    "date": "2020-03-03 12:00:00 -0500",
+    "event": "Tennessee"
+  },
+  {
+    "date": "2020-03-03 12:00:00 -0500",
+    "event": "Texas"
+  },
+  {
+    "date": "2020-03-03 12:00:00 -0500",
+    "event": "Vermont"
+  },
+  {
+    "date": "2020-03-03 12:00:00 -0500",
+    "event": "Virginia"
+  },
+  {
+    "date": "2020-03-07 12:00:00 -0500",
+    "event": "Louisiana"
+  },
+  {
+    "date": "2020-03-10 12:00:00 -0400",
+    "event": "Hawaii Caucus (R)"
+  },
+  {
+    "date": "2020-03-10 12:00:00 -0400",
+    "event": "Idaho"
+  },
+  {
+    "date": "2020-03-10 12:00:00 -0400",
+    "event": "Michigan"
+  },
+  {
+    "date": "2020-03-10 12:00:00 -0400",
+    "event": "Mississippi"
+  },
+  {
+    "date": "2020-03-10 12:00:00 -0400",
+    "event": "Missouri"
+  },
+  {
+    "date": "2020-03-10 12:00:00 -0400",
+    "event": "Ohio"
+  },
+  {
+    "date": "2020-03-17 12:00:00 -0400",
+    "event": "Arizona"
+  },
+  {
+    "date": "2020-03-17 12:00:00 -0400",
+    "event": "Florida"
+  },
+  {
+    "date": "2020-03-17 12:00:00 -0400",
+    "event": "Illinois"
+  },
+  {
+    "date": "2020-04-07 12:00:00 -0400",
+    "event": "Wisconsin"
+  },
+  {
+    "date": "2020-04-28 12:00:00 -0400",
+    "event": "Connecticut"
+  },
+  {
+    "date": "2020-04-28 12:00:00 -0400",
+    "event": "Delaware"
+  },
+  {
+    "date": "2020-04-28 12:00:00 -0400",
+    "event": "Maryland"
+  },
+  {
+    "date": "2020-04-28 12:00:00 -0400",
+    "event": "Pennsylvania"
+  },
+  {
+    "date": "2020-04-28 12:00:00 -0400",
+    "event": "Rhode Island"
+  },
+  {
+    "date": "2020-05-05 12:00:00 -0400",
+    "event": "Indiana"
+  },
+  {
+    "date": "2020-05-12 12:00:00 -0400",
+    "event": "Nebraska (R)"
+  },
+  {
+    "date": "2020-05-12 12:00:00 -0400",
+    "event": "West Virginia"
+  },
+  {
+    "date": "2020-05-19 12:00:00 -0400",
+    "event": "Arkansas"
+  },
+  {
+    "date": "2020-05-19 12:00:00 -0400",
+    "event": "Kentucky"
+  },
+  {
+    "date": "2020-05-19 12:00:00 -0400",
+    "event": "Oregon"
+  },
+  {
+    "date": "2020-05-26 12:00:00 -0400",
+    "event": "Washington Caucus (R)"
+  },
+  {
+    "date": "2020-06-02 12:00:00 -0400",
+    "event": "Montana"
+  },
+  {
+    "date": "2020-06-02 12:00:00 -0400",
+    "event": "New Jersey"
+  },
+  {
+    "date": "2020-06-02 12:00:00 -0400",
+    "event": "New Mexico"
+  },
+  {
+    "date": "2020-06-02 12:00:00 -0400",
+    "event": "South Dakota"
+  },
+  {
+    "date": "2020-06-07 12:00:00 -0400",
+    "event": "Puerto Rico"
+  },
+  {
+    "date": "2020-06-16 12:00:00 -0400",
+    "event": "Washington"
+  }
+]
