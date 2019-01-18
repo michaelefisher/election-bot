@@ -1,34 +1,45 @@
+#! /usr/bin/env python
 # -*- coding: utf-8 -*-
+# vim: set noexpandtab ts=2:
 
-import datetime
+import json
 import os
 import requests
 
-contests = [
-	{
-    "contest":"Iowa Caucuses",
-	"date": datetime.date(2020,02,03),
-	"verb": "are",
-	"facts": []
-	},
-]
+import dateutil.parser
+import dateutil.utils
+import dateutil.tz
+
+token = os.getenv("SLACK_TOKEN")
+
+contests = [ ]
+
+with open('data.json') as f:
+	contests = json.load(f)
+
 text = None
 for contest in contests:
-	d = contest['date'] - datetime.date.today()
+	dflt_tz = dateutil.tz.tzoffset("EST", -18000)
+	today = dateutil.utils.today(dflt_tz)
+	d = dateutil.parser.parse(contest['date']) - today
 	if d.days < 0:
-		continue #go to next contest
+			continue # go to next contest
 	try:
-		fact = contest['facts'][d.days]
+			fact = contest['facts'][d.days]
 	except:
 		fact = ''
 	if d.days >= 2:
-		text = "It is %s. %s %s in %s days. %s" % (datetime.date.today().strftime("%A"), contest['contest'], contest['verb'], d.days, fact)
+		text = "It is %s. %s %s in %s days. %s" % (today.strftime("%A"), contest['event'], contest['verb'], d.days, fact)
 	else:
 		when = ["today", "tomorrow"][d.days]
+		text = "It is %s. The %s %s %s. %s" % (today.strftime("%A"), contest['event'], contest['verb'], when, fact)
 
-		text = "It is %s. The %s %s %s. %s" % (datetime.date.today().strftime("%A"), contest['contest'], contest['verb'], when, fact)
-
-	payload = {"username": "ElectionReminder", "text": "I was asked to move to this channel by someone who hates fun", "icon_emoji": ":ghost:"}
 	break
-if text is not None:
-    requests.post(os.get_env(SLACK_TOKEN), json = payload)
+
+payload = {"username": "ElectionReminder", "text": text, "icon_emoji": ":ghost:"}
+
+print "Sending Payload:"
+print json.dumps(payload, sort_keys=True)
+
+if text is not None and token is not None:
+	requests.post(token, json = payload)
