@@ -1,6 +1,5 @@
 #! /usr/bin/env python
 # -*- coding: utf-8 -*-
-# vim: set noexpandtab ts=2:
 
 import json
 import os
@@ -23,9 +22,9 @@ for contest in contests:
 	today = dateutil.utils.today(dflt_tz)
 	d = dateutil.parser.parse(contest['date']) - today
 	if d.days < 0:
-			continue # go to next contest
+		continue # go to next contest
 	try:
-			fact = contest['facts'][d.days]
+		fact = contest['facts'][d.days]
 	except:
 		fact = ''
 	if d.days >= 2:
