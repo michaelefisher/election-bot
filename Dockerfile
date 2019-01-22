@@ -1,8 +1,9 @@
 FROM python:2
+WORKDIR /opt/
 
-ADD election_reminder.py /election_reminder.py
-ADD requirements.txt /requirements.txt
-
+ADD requirements.txt ./
 RUN pip install -r requirements.txt
 
-CMD ["python", "/election_reminder.py"]
+ADD election_reminder.py data.json ./
+
+CMD ["python", "election_reminder.py"]

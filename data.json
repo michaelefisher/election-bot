@@ -1,0 +1,254 @@
+[
+  {
+    "date": "2020-02-03 12:00:00 -0500",
+    "event": "Iowa Caucuses",
+    "verb": "are",
+    "facts": []
+  },
+  {
+    "date": "2020-02-11 12:00:00 -0500",
+    "event": "New Hampshire",
+    "verb": "is",
+    "facts": []
+  },
+  {
+    "date": "2020-02-22 12:00:00 -0500",
+    "event": "Nevada Caucuses",
+    "verb": "are",
+    "facts": []
+  },
+  {
+    "date": "2020-02-29 12:00:00 -0500",
+    "event": "South Carolina",
+    "verb": "is",
+    "facts": []
+  },
+  {
+    "date": "2020-03-03 12:00:00 -0500",
+    "event": "Alabama",
+    "verb": "is",
+    "facts": []
+  },
+  {
+    "date": "2020-03-03 12:00:00 -0500",
+    "event": "California",
+    "verb": "is",
+    "facts": []
+  },
+  {
+    "date": "2020-03-03 12:00:00 -0500",
+    "event": "Massachusetts",
+    "verb": "is",
+    "facts": []
+  },
+  {
+    "date": "2020-03-03 12:00:00 -0500",
+    "event": "North Carolina",
+    "verb": "is",
+    "facts": []
+  },
+  {
+    "date": "2020-03-03 12:00:00 -0500",
+    "event": "Oklahoma",
+    "verb": "is",
+    "facts": []
+  },
+  {
+    "date": "2020-03-03 12:00:00 -0500",
+    "event": "Tennessee",
+    "verb": "is",
+    "facts": []
+  },
+  {
+    "date": "2020-03-03 12:00:00 -0500",
+    "event": "Texas",
+    "verb": "is",
+    "facts": []
+  },
+  {
+    "date": "2020-03-03 12:00:00 -0500",
+    "event": "Vermont",
+    "verb": "is",
+    "facts": []
+  },
+  {
+    "date": "2020-03-03 12:00:00 -0500",
+    "event": "Virginia",
+    "verb": "is",
+    "facts": []
+  },
+  {
+    "date": "2020-03-07 12:00:00 -0500",
+    "event": "Louisiana",
+    "verb": "is",
+    "facts": []
+  },
+  {
+    "date": "2020-03-10 12:00:00 -0400",
+    "event": "Hawaii Caucuses (R)",
+    "verb": "are",
+    "facts": []
+  },
+  {
+    "date": "2020-03-10 12:00:00 -0400",
+    "event": "Idaho",
+    "verb": "is",
+    "facts": []
+  },
+  {
+    "date": "2020-03-10 12:00:00 -0400",
+    "event": "Michigan",
+    "verb": "is",
+    "facts": []
+  },
+  {
+    "date": "2020-03-10 12:00:00 -0400",
+    "event": "Mississippi",
+    "verb": "is",
+    "facts": []
+  },
+  {
+    "date": "2020-03-10 12:00:00 -0400",
+    "event": "Missouri",
+    "verb": "is",
+    "facts": []
+  },
+  {
+    "date": "2020-03-10 12:00:00 -0400",
+    "event": "Ohio",
+    "verb": "is",
+    "facts": []
+  },
+  {
+    "date": "2020-03-17 12:00:00 -0400",
+    "event": "Arizona",
+    "verb": "is",
+    "facts": []
+  },
+  {
+    "date": "2020-03-17 12:00:00 -0400",
+    "event": "Florida",
+    "verb": "is",
+    "facts": []
+  },
+  {
+    "date": "2020-03-17 12:00:00 -0400",
+    "event": "Illinois",
+    "verb": "is",
+    "facts": []
+  },
+  {
+    "date": "2020-04-07 12:00:00 -0400",
+    "event": "Wisconsin",
+    "verb": "is",
+    "facts": []
+  },
+  {
+    "date": "2020-04-28 12:00:00 -0400",
+    "event": "Connecticut",
+    "verb": "is",
+    "facts": []
+  },
+  {
+    "date": "2020-04-28 12:00:00 -0400",
+    "event": "Delaware",
+    "verb": "is",
+    "facts": []
+  },
+  {
+    "date": "2020-04-28 12:00:00 -0400",
+    "event": "Maryland",
+    "verb": "is",
+    "facts": []
+  },
+  {
+    "date": "2020-04-28 12:00:00 -0400",
+    "event": "Pennsylvania",
+    "verb": "is",
+    "facts": []
+  },
+  {
+    "date": "2020-04-28 12:00:00 -0400",
+    "event": "Rhode Island",
+    "verb": "is",
+    "facts": []
+  },
+  {
+    "date": "2020-05-05 12:00:00 -0400",
+    "event": "Indiana",
+    "verb": "is",
+    "facts": []
+  },
+  {
+    "date": "2020-05-12 12:00:00 -0400",
+    "event": "Nebraska (R)",
+    "verb": "is",
+    "facts": []
+  },
+  {
+    "date": "2020-05-12 12:00:00 -0400",
+    "event": "West Virginia",
+    "verb": "is",
+    "facts": []
+  },
+  {
+    "date": "2020-05-19 12:00:00 -0400",
+    "event": "Arkansas",
+    "verb": "is",
+    "facts": []
+  },
+  {
+    "date": "2020-05-19 12:00:00 -0400",
+    "event": "Kentucky",
+    "verb": "is",
+    "facts": []
+  },
+  {
+    "date": "2020-05-19 12:00:00 -0400",
+    "event": "Oregon",
+    "verb": "is",
+    "facts": []
+  },
+  {
+    "date": "2020-05-26 12:00:00 -0400",
+    "event": "Washington Caucuses (R)",
+    "verb": "are",
+    "facts": []
+  },
+  {
+    "date": "2020-06-02 12:00:00 -0400",
+    "event": "Montana",
+    "verb": "is",
+    "facts": []
+  },
+  {
+    "date": "2020-06-02 12:00:00 -0400",
+    "event": "New Jersey",
+    "verb": "is",
+    "facts": []
+  },
+  {
+    "date": "2020-06-02 12:00:00 -0400",
+    "event": "New Mexico",
+    "verb": "is",
+    "facts": []
+  },
+  {
+    "date": "2020-06-02 12:00:00 -0400",
+    "event": "South Dakota",
+    "verb": "is",
+    "facts": []
+  },
+  {
+    "date": "2020-06-07 12:00:00 -0400",
+    "event": "Puerto Rico",
+    "verb": "is",
+    "facts": []
+  },
+  {
+    "date": "2020-06-16 12:00:00 -0400",
+    "event": "Washington",
+    "verb": "is",
+    "facts": []
+  }
+]
