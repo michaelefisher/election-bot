@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
-import datetime
 import os
+import datetime
 import requests
 
 contests = [
@@ -12,6 +12,11 @@ contests = [
 	"facts": []
 	},
 ]
+
+# Just add in the 3 components of the Slack webhook URL: team, channel, secret token
+SLACK_WEBHOOK_TOKEN = os.getenv("SLACK_WEBHOOK_TOKEN", None)
+SLACK_URL = "https://hooks.slack.com/services/%s" % SLACK_WEBHOOK_TOKEN
+
 text = None
 for contest in contests:
 	d = contest['date'] - datetime.date.today()
@@ -27,8 +32,7 @@ for contest in contests:
 		when = ["today", "tomorrow"][d.days]
 
 		text = "It is %s. The %s %s %s. %s" % (datetime.date.today().strftime("%A"), contest['contest'], contest['verb'], when, fact)
-
-	payload = {"username": "ElectionReminder", "text": "I was asked to move to this channel by someone who hates fun", "icon_emoji": ":ghost:"}
+	payload = {"username": "ElectionReminder", "text": text, "icon_emoji": ":ghost:"}
 	break
-if text is not None:
-    requests.post(os.get_env(SLACK_TOKEN), json = payload)
+if text is not None and SLACK_WEBHOOK_TOKEN is not None:
+    requests.post(SLACK_URL, json = payload)
