@@ -3,18 +3,22 @@
 
 import json
 import os
+import datetime
 import requests
 
 import dateutil.parser
 import dateutil.utils
 import dateutil.tz
 
-token = os.getenv("SLACK_TOKEN")
 
 contests = [ ]
 
 with open('data.json') as f:
 	contests = json.load(f)
+
+# Just add in the 3 components of the Slack webhook URL: team, channel, secret token
+SLACK_WEBHOOK_TOKEN = os.getenv("SLACK_WEBHOOK_TOKEN", None)
+SLACK_URL = "https://hooks.slack.com/services/%s" % SLACK_WEBHOOK_TOKEN
 
 text = None
 for contest in contests:
@@ -40,5 +44,5 @@ payload = {"username": "ElectionReminder", "text": text, "icon_emoji": ":ghost:"
 print "Sending Payload:"
 print json.dumps(payload, sort_keys=True)
 
-if text is not None and token is not None:
-	requests.post(token, json = payload)
+if text is not None and SLACK_WEBHOOK_TOKEN is not None:
+	requests.post(SLACK_URL, json = payload)

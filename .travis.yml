@@ -1,0 +1,5 @@
+language: minimal
+services: docker
+install:
+- docker build -t election-bot .
+- docker run -e SLACK_WEBHOOK_TOKEN=${SLACK_WEBHOOK_TOKEN} election-bot
