@@ -32,7 +32,7 @@ for contest in contests:
 	except:
 		fact = ''
 	if d.days >= 2:
-		text = "It is %s. %s %s in %s days. %s" % (today.strftime("%A"), contest['event'], contest['verb'], d.days, fact)
+		text = "It is %s. %s %s in %s days. %s. Have a great week!" % (today.strftime("%A"), contest['event'], contest['verb'], d.days, fact)
 	else:
 		when = ["today", "tomorrow"][d.days]
 		text = "It is %s. The %s %s %s. %s" % (today.strftime("%A"), contest['event'], contest['verb'], when, fact)
