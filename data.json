@@ -1,5 +1,29 @@
 [
   {
+    "date": "2019-07-30 20:00:00 -0500",
+    "event": "Democratic Debate Detroit Part 1",
+    "verb": "is",
+    "facts": []
+  },
+  {
+    "date": "2019-07-31 20:00:00 -0500",
+    "event": "Democratic Debate Detroit Part 2",
+    "verb": "is",
+    "facts": []
+  },
+  {
+    "date": "2019-09-12 20:00:00 -0500",
+    "event": "Democratic Debate Houston Part 1",
+    "verb": "is",
+    "facts": []
+  },
+  {
+    "date": "2019-09-13 20:00:00 -0500",
+    "event": "Democratic Debate Houston Part 2",
+    "verb": "is",
+    "facts": []
+  },
+  {
     "date": "2020-02-03 12:00:00 -0500",
     "event": "Iowa Caucuses",
     "verb": "are",
