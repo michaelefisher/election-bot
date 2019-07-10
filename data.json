@@ -1,25 +1,55 @@
 [
   {
-    "date": "2019-07-30 20:00:00 -0500",
-    "event": "Democratic Debate Detroit Part 1",
+    "date": "2019-10-01 12:00:00 -0500",
+    "event": "Fourth Democratic Debate", 
     "verb": "is",
     "facts": []
   },
   {
-    "date": "2019-07-31 20:00:00 -0500",
-    "event": "Democratic Debate Detroit Part 2",
+    "date": "2019-11-01 12:00:00 -0500",
+    "event": "Fifth Democratic Debate", 
     "verb": "is",
     "facts": []
   },
   {
-    "date": "2019-09-12 20:00:00 -0500",
-    "event": "Democratic Debate Houston Part 1",
+    "date": "2019-12-01 12:00:00 -0500",
+    "event": "Sixth Democratic Debate", 
     "verb": "is",
     "facts": []
   },
   {
-    "date": "2019-09-13 20:00:00 -0500",
-    "event": "Democratic Debate Houston Part 2",
+    "date": "2020-01-01 12:00:00 -0500",
+    "event": "Seventh Democratic Debate", 
+    "verb": "is",
+    "facts": []
+  },
+  {
+    "date": "2020-01-15 12:00:00 -0500",
+    "event": "Eighth Democratic Debate", 
+    "verb": "is",
+    "facts": []
+  },
+  {
+    "date": "2020-02-01 12:00:00 -0500",
+    "event": "Ninth Democratic Debate", 
+    "verb": "is",
+    "facts": []
+  },
+  {
+    "date": "2020-02-15 12:00:00 -0500",
+    "event": "Tenth Democratic Debate", 
+    "verb": "is",
+    "facts": []
+  },
+  {
+    "date": "2020-03-01 12:00:00 -0500",
+    "event": "Eleventh Democratic Debate", 
+    "verb": "is",
+    "facts": []
+  },
+  {
+    "date": "2020-04-01 12:00:00 -0500",
+    "event": "Twelfth Democratic Debate", 
     "verb": "is",
     "facts": []
   },
