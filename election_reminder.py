@@ -1,5 +1,6 @@
 #! /usr/bin/env python
 # -*- coding: utf-8 -*-
+# Adapted from work by Yahel Carmon (2016)
 
 import json
 import os
