@@ -1,7 +1,25 @@
 [
+   {
+    "date": "2019-07-30 21:00:00 -0500",
+    "event": "Second Democratic Debate: Night 1", 
+    "verb": "is",
+    "facts": ["Candidates: Marianne Williamson, John Delaney, John Hickenlooper, Tim Ryan, Steve Bullock, Amy Klobuchar, Beto O'Rourke, Pete Buttigieg, Elizabeth Warren, Bernie Sanders"]
+  },
   {
-    "date": "2019-10-01 12:00:00 -0500",
-    "event": "Fourth Democratic Debate", 
+    "date": "2019-07-31 21:00:00 -0500",
+    "event": "Second Democratic Debate: Night 2", 
+    "verb": "is",
+    "facts": ["Candidates: Jay Inslee, Kirsten Gillibrand, Tulsi Gabbard, Michael Bennet, Bill de Blasio, Cory Booker, Andrew Yang, Julián Castro, Kamala Harris, Joe Biden"]
+  },
+  {
+    "date": "2019-09-12 21:00:00 -0500",
+    "event": "Third Democratic Debate: Night 1", 
+    "verb": "is",
+    "facts": []
+  },
+  {
+    "date": "2019-09-13 21:00:00 -0500",
+    "event": "Third Democratic Debate: Night 2", 
     "verb": "is",
     "facts": []
   },
