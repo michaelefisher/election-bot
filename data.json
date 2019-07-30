@@ -1,73 +1,82 @@
 [
    {
     "date": "2019-07-30 21:00:00 -0500",
-    "event": "Second Democratic Debate: Night 1", 
+    "event": "Second Democratic Debate: Night 1",
     "verb": "is",
     "facts": ["Candidates: Marianne Williamson, John Delaney, John Hickenlooper, Tim Ryan, Steve Bullock, Amy Klobuchar, Beto O'Rourke, Pete Buttigieg, Elizabeth Warren, Bernie Sanders"]
   },
   {
     "date": "2019-07-31 21:00:00 -0500",
-    "event": "Second Democratic Debate: Night 2", 
+    "event": "Second Democratic Debate: Night 2",
     "verb": "is",
     "facts": ["Candidates: Jay Inslee, Kirsten Gillibrand, Tulsi Gabbard, Michael Bennet, Bill de Blasio, Cory Booker, Andrew Yang, Julián Castro, Kamala Harris, Joe Biden"]
   },
   {
     "date": "2019-09-12 21:00:00 -0500",
-    "event": "Third Democratic Debate: Night 1", 
+    "event": "Third Democratic Debate: Night 1",
     "verb": "is",
-    "facts": []
+    "facts": [
+      "Qualifications: A candidate will need to either have at least 2 percent support in three qualifying polls, AND provide evidence of at least 130,000 individual donations from a minimum of 400 different donors in at least 20 states.",
+      "Location: Texas Southern University in Houston, Texas"
+    ]
   },
   {
     "date": "2019-09-13 21:00:00 -0500",
-    "event": "Third Democratic Debate: Night 2", 
+    "event": "Third Democratic Debate: Night 2",
     "verb": "is",
     "facts": []
   },
   {
+    "date": "2019-10-01 12:00:00 -0500",
+    "event": "Fourth Democratic Debate",
+    "verb": "is",
+    "facts": ["Qualifications: A candidate will need to either have at least 2 percent support in three qualifying polls, AND provide evidence of at least 130,000 individual donations from a minimum of 400 different donors in at least 20 states."]
+  },
+  {
     "date": "2019-11-01 12:00:00 -0500",
-    "event": "Fifth Democratic Debate", 
+    "event": "Fifth Democratic Debate",
     "verb": "is",
     "facts": []
   },
   {
     "date": "2019-12-01 12:00:00 -0500",
-    "event": "Sixth Democratic Debate", 
+    "event": "Sixth Democratic Debate",
     "verb": "is",
     "facts": []
   },
   {
     "date": "2020-01-01 12:00:00 -0500",
-    "event": "Seventh Democratic Debate", 
+    "event": "Seventh Democratic Debate",
     "verb": "is",
     "facts": []
   },
   {
     "date": "2020-01-15 12:00:00 -0500",
-    "event": "Eighth Democratic Debate", 
+    "event": "Eighth Democratic Debate",
     "verb": "is",
     "facts": []
   },
   {
     "date": "2020-02-01 12:00:00 -0500",
-    "event": "Ninth Democratic Debate", 
+    "event": "Ninth Democratic Debate",
     "verb": "is",
     "facts": []
   },
   {
     "date": "2020-02-15 12:00:00 -0500",
-    "event": "Tenth Democratic Debate", 
+    "event": "Tenth Democratic Debate",
     "verb": "is",
     "facts": []
   },
   {
     "date": "2020-03-01 12:00:00 -0500",
-    "event": "Eleventh Democratic Debate", 
+    "event": "Eleventh Democratic Debate",
     "verb": "is",
     "facts": []
   },
   {
     "date": "2020-04-01 12:00:00 -0500",
-    "event": "Twelfth Democratic Debate", 
+    "event": "Twelfth Democratic Debate",
     "verb": "is",
     "facts": []
   },
