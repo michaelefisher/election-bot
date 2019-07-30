@@ -15,7 +15,7 @@ import dateutil.tz
 contests = [ ]
 
 with open('data.json') as f:
-	contests = json.load(f)
+	contests = sorted(json.load(f), key=lambda contest: dateutil.parser.parse(contest['date']))
 
 # Just add in the 3 components of the Slack webhook URL: team, channel, secret token
 SLACK_WEBHOOK_TOKEN = os.getenv("SLACK_WEBHOOK_TOKEN", None)
