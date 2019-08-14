@@ -25,7 +25,7 @@ text = None
 for contest in contests:
 	dflt_tz = dateutil.tz.tzoffset("EST", -18000)
 	today = dateutil.utils.today(dflt_tz)
-	d = dateutil.parser.parse(contest["date"]) - today
+	d = dateutil.parser.parse(contest.get("date", "2018-01-01 12:00:00 -0500")) - today
 	if d.days < 0:
 		continue # go to next contest
 	try:
