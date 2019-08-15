@@ -14,8 +14,8 @@ import dateutil.tz
 
 contests = [ ]
 
-with open('data.json') as f:
-	contests = json.load(f)
+with open("data.json") as f:
+	contests = sorted(json.load(f), key=lambda contest: dateutil.parser.parse(contest.get("date", "2018-01-01 12:00:00 -0500")))
 
 # Just add in the 3 components of the Slack webhook URL: team, channel, secret token
 SLACK_WEBHOOK_TOKEN = os.getenv("SLACK_WEBHOOK_TOKEN", None)
@@ -25,18 +25,18 @@ text = None
 for contest in contests:
 	dflt_tz = dateutil.tz.tzoffset("EST", -18000)
 	today = dateutil.utils.today(dflt_tz)
-	d = dateutil.parser.parse(contest['date']) - today
+	d = dateutil.parser.parse(contest.get("date", "2018-01-01 12:00:00 -0500")) - today
 	if d.days < 0:
 		continue # go to next contest
 	try:
-		fact = contest['facts'][d.days]
+		fact = contest["facts"][d.days]
 	except:
-		fact = ''
+		fact = ""
 	if d.days >= 2:
-		text = "It is %s. %s %s in %s days. %s. Have a great week!" % (today.strftime("%A"), contest['event'], contest['verb'], d.days, fact)
+		text = "It is %s. %s %s in %s days. %s. Have a great week!" % (today.strftime("%A"), contest["event"], contest["verb"], d.days, fact)
 	else:
 		when = ["today", "tomorrow"][d.days]
-		text = "It is %s. The %s %s %s. %s" % (today.strftime("%A"), contest['event'], contest['verb'], when, fact)
+		text = "It is %s. The %s %s %s. %s" % (today.strftime("%A"), contest["event"], contest["verb"], when, fact)
 
 	break
 
