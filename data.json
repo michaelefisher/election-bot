@@ -13,7 +13,7 @@
   },
   {
     "date": "2019-09-12 21:00:00 -0500",
-    "event": "Third Democratic Debate: Night 1",
+    "event": "Third Democratic Debate",
     "verb": "is",
     "facts": [
       "Qualifications: A candidate will need to either have at least 2 percent support in three qualifying polls, AND provide evidence of at least 130,000 individual donations from a minimum of 400 different donors in at least 20 states.",
@@ -21,16 +21,13 @@
     ]
   },
   {
-    "date": "2019-09-13 21:00:00 -0500",
-    "event": "Third Democratic Debate: Night 2",
-    "verb": "is",
-    "facts": []
-  },
-  {
-    "date": "2019-10-01 12:00:00 -0500",
+    "date": "2019-10-15 21:00:00 -0500",
     "event": "Fourth Democratic Debate",
     "verb": "is",
-    "facts": ["Qualifications: A candidate will need to either have at least 2 percent support in three qualifying polls, AND provide evidence of at least 130,000 individual donations from a minimum of 400 different donors in at least 20 states."]
+    "facts": [
+       "Qualifications: A candidate will need to either have at least 3 percent support in three qualifying polls, AND provide evidence of at least 165,000 individual donations from a minimum of 600 different donors in at least 20 states.",
+       "Location: Otterbein University, Westerville, Ohio"
+    ]
   },
   {
     "date": "2019-11-01 12:00:00 -0500",
