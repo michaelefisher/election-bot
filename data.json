@@ -30,16 +30,20 @@
     ]
   },
   {
-    "date": "2019-11-01 12:00:00 -0500",
+    "date": "2019-11-20 21:00:00 -0500",
     "event": "Fifth Democratic Debate",
     "verb": "is",
-    "facts": []
+    "facts": [
+       "Location: Oprah Winfrey sound stage, Tyler Perry Studios, Atlanta, Georgia."
+    ]
   },
   {
-    "date": "2019-12-01 12:00:00 -0500",
+    "date": "2019-12-12 21:00:00 -0500",
     "event": "Sixth Democratic Debate",
     "verb": "is",
-    "facts": []
+    "facts": [
+       "Location: Gersten Pavilion, Loyola Marymount University, Los Angeles, California."
+    ]
   },
   {
     "date": "2020-01-01 12:00:00 -0500",
