@@ -46,40 +46,12 @@
     ]
   },
   {
-    "date": "2020-01-01 12:00:00 -0500",
+    "date": "2020-01-14 20:00:00 -0500",
     "event": "Seventh Democratic Debate",
     "verb": "is",
-    "facts": []
-  },
-  {
-    "date": "2020-01-15 12:00:00 -0500",
-    "event": "Eighth Democratic Debate",
-    "verb": "is",
-    "facts": []
-  },
-  {
-    "date": "2020-02-01 12:00:00 -0500",
-    "event": "Ninth Democratic Debate",
-    "verb": "is",
-    "facts": []
-  },
-  {
-    "date": "2020-02-15 12:00:00 -0500",
-    "event": "Tenth Democratic Debate",
-    "verb": "is",
-    "facts": []
-  },
-  {
-    "date": "2020-03-01 12:00:00 -0500",
-    "event": "Eleventh Democratic Debate",
-    "verb": "is",
-    "facts": []
-  },
-  {
-    "date": "2020-04-01 12:00:00 -0500",
-    "event": "Twelfth Democratic Debate",
-    "verb": "is",
-    "facts": []
+    "facts": [
+       "Location: Drake University, Des Moines, Iowa"
+    ]
   },
   {
     "date": "2020-02-03 12:00:00 -0500",
@@ -88,8 +60,22 @@
     "facts": []
   },
   {
+    "date": "2020-02-07 20:00:00 -0500",
+    "event": "Eighth Democratic Debate",
+    "verb": "is",
+    "facts": [
+       "Location: St. Anselm College, Manchester, New Hampshire"
+    ]
+  },
+  {
     "date": "2020-02-11 12:00:00 -0500",
     "event": "New Hampshire",
+    "verb": "is",
+    "facts": []
+  },
+  {
+    "date": "2020-02-19 12:00:00 -0500",
+    "event": "Ninth Democratic Debate",
     "verb": "is",
     "facts": []
   },
@@ -98,6 +84,14 @@
     "event": "Nevada Caucuses",
     "verb": "are",
     "facts": []
+  },
+  {
+    "date": "2020-02-25 12:00:00 -0500",
+    "event": "Tenth Democratic Debate",
+    "verb": "is",
+    "facts": [
+       "Location: Gaillard Center, Charleston, South Carolina"
+    ]
   },
   {
     "date": "2020-02-29 12:00:00 -0500",
